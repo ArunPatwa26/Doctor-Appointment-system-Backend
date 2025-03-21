@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+coverage/
+dist/
+
+# Cloudinary cache
+cloudinary/
+
+# Ignore package-lock.json (optional)
+package-lock.json
+
+# Multer uploads (if you are storing uploaded files locally)
+uploads/
+
+# VS Code settings (optional)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
