@@ -10,7 +10,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 // app config
 const app=express()
-const port=process.env.PORRT || 4000
+const port=process.env.PORT || 4000
 connectDB()
 connectCloudinary()
 
