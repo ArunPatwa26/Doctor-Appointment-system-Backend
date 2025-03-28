@@ -16,7 +16,14 @@ connectCloudinary()
 
 // middlewares
 app.use(express.json())
-app.use(cors({ origin: '*' }));
+app.use(cors({
+    origin: ["https://doctor-appointment-system-admin-eight.vercel.app", "https://doctor-appointment-system-backend-five.vercel.app"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+}));
+
+// ✅ If using a simple setup, you can also do this:
+app.use(cors());
 
 
 // api endpoints
